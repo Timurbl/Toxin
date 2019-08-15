@@ -1,8 +1,29 @@
+.main-navigation {
+  margin-left: auto;
+}
+
 .main-navigation__list {
   list-style: none;
   padding: 0;
   margin: 0;
   display: flex;
   justify-content: space-between;
-  background-color: yellow;
+}
+
+.main-navigation__item--dropdown .main-navigation__link {
+  padding-right: 34px;
+  background-image: url("../../images/more.svg");
+  background-repeat: no-repeat;
+  background-position: right 18px top 6px;
+}
+
+.main-navigation__link {
+  padding: 0 10px;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(31, 32, 65, 0.5);
 }

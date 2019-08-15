@@ -1,7 +1,10 @@
+/*@import "../../fonts/fonts";*/
 @import "../../components/main-header/main-header";
 @import "../../components/main-navigation/main-navigation";
 @import "../../components/user-navigation/user-navigation";
 
 body {
   background-color: black;
+  margin: 0;
+  padding: 0;
 }

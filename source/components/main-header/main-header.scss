@@ -1,5 +1,17 @@
 .main-header {
-  background-color: red;
+  background-color: #ffffff;
+  width: 100%;
+}
+
+.main-header__wrapper {
+  font-family: "Montserrat", "Arial", sans-serif;
+  width: 1160px;
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.main-header__image {
+  padding: 13px 0;
 }
